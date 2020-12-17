@@ -51,6 +51,12 @@ li:hover{
 	display: none;
 }
 
+xbutton {
+    font-size: 22px;
+    position: relative;
+    left: 100px;
+}
+
 li > crossOutButton {
 	background: none;
 	border: none;
