@@ -12,7 +12,7 @@ function newItem(){
     $('#list').append(li);
 
 //add the "x" to each li, 
-    let closeX = $('<xbutton> X</xbutton>');
+    let closeX = $('<button>X</button>').addClass("crossOutButton");
     li.append(closeX);
 
 //crossing out list item with click
